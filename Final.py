@@ -33,7 +33,8 @@ def receivedata():
     d = x1[3]
     e = x1[4]
     e = e[0:len(e)-4]
-      
+    
+    #Mengembalikan nilai data
     return data,a,b,c,d,e
 
 #Fungsi untuk mendapatkan daftar port serial
